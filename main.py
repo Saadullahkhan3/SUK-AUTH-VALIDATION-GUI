@@ -233,9 +233,6 @@ class SignUpPage(tk.Frame):
         submit_btn = ttk.Button(self, text="Submit", command=lambda: self.controller.sign_up(self.username_var, self.username_status, self.name_var, self.name_status, self.email_var, self.email_status, self.password_var, self.password_status, self.confirm_password_var, self.confirm_password_status, self.controller))
         submit_btn.grid(row=6, column=1, padx=10, pady=10)
         
-        # if self.status_class.sign_in_accepted:
-        #     self.controller.show_frame["CodePage"]
-
         self.update_idletasks()
         self.update()
 
