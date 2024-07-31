@@ -26,7 +26,8 @@
 6. Open **cmd** or **terminal** in the same folder.
 7. type `python main.py`, then script will start running
 
-*Note: This is not complete, I will make it more better. Update and Delete Operations are 60% completed that will be upload soon.*
+*Note: This is not complete, I will make it more better. Update and Delete Operations are 60% completed that will be upload soon.
+Code quality is slight lower than good but I will make it an absolute master piece*
 
 ---
 ## [Saadullah Khan.](https://www.linkedin.com/in/Saadullahkhan3)
