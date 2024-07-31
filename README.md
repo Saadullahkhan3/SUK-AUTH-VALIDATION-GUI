@@ -21,7 +21,7 @@
 3. Create a blank folder
 4. Put all given files in this repository (README.md is not necessary) to new created folder.
 5. Change SMTP server, SMTP port(*make sure that your port code should be for SSL*), SMTP service email and password constant in `main.py` according to you.
-6. Change Sheety End Point in `main.py`. visit (Sheety)[https://sheety.co/].
+6. Change Sheety End Point in `main.py`. visit [Sheety](https://sheety.co/).
 6. Open **cmd** or **terminal** in the same folder.
 7. type `python main.py`, then script will start running
 
