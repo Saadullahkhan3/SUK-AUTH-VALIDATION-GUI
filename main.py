@@ -141,7 +141,6 @@ class Application(tk.Tk, Status, SheetyCURD, ValidateCredentials, PasswordHash):
         
         Status.__init__(self, controller=self)
         
-        # for F in (StartPage,):
         for F in (StartPage, SignUpPage, SignInPage, CodePage, Home):
             page_name = F.__name__
             frame = F(parent=self.container, controller=self)
