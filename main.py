@@ -419,14 +419,14 @@ if __name__ == "__main__":
 
     SEND_THE_CODE = False
 
-    # SHEETY_END_POINT = r"https://api.sheety.co/df322240a5fdd8f7a95bf23b59768ed6/auth/emails"
-    SHEETY_END_POINT = r"https://api.sheety.co/cf4be50d3acabb51c4e752a06c2501a8/auth2/emails"
+    # Make sure to change it according to you!
+    SHEETY_END_POINT = r"https://api.sheety.co/username/projectName/sheetName"
 
-
-    SMTP_EMAIL = r"Shazadshama3@gmail.com"
-    SMTP_EMAIL_PASSWORD = r"dnnr kbpj yzvo cwzj"
-    SMTP_SERVER = r"Smtp.gmail.com"
-    SMTP_SSL_POST = 465
+    # You can use gmail for SMTP free service.
+    SMTP_EMAIL = r"<Your-SMTP-Email>"
+    SMTP_EMAIL_PASSWORD = r"<Your-SMTP-Email-Password>"
+    SMTP_SERVER = r"<SMTP-SERVER>"  # for gmail -> Smtp.gmail.com
+    SMTP_SSL_POST = 465 # This port for gmail SSL, change it according to you.
     app = Application()
     
     app.mainloop()
