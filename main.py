@@ -15,8 +15,6 @@ class Status:
         self.controller = controller
         self.sign_up_accepted = False
         self.sign_in_accepted = False
-        
-        self.controller.read_data()
 
 
     def sign_up(self, username_var, username_status, name_var, name_status, email_var, email_status, password_var, password_status, confirm_password_var, confirm_password_status, controller):
@@ -129,7 +127,7 @@ class Application(tk.Tk, Status, SheetyCURD, ValidateCredentials, PasswordHash):
     def __init__(self):
         super().__init__()
         SheetyCURD.__init__(self, SHEETY_END_POINT)
-        # self.read_data()
+        self.read_data()
 
         self.title("Sign Up / Sign In")
         self.geometry("500x400")
