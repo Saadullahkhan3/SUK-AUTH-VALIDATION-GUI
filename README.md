@@ -77,7 +77,7 @@ When user pass the `Regular Expressions`, a `Code Page` appear, see below:
 
 When user click on `Send Code`, it send code to **user email** with subject `SUK - Verification Code` and it turns into `Resent Code`.
 
-<video src="./example-images/CodePage/send-code-to-resent-code.mp4" height=300 controls></video>
+<video src="./example-images/CodePage/send-code-to-resent-code.mp4" height=300 controls alt="File is big to show by Github"></video>
 
 Code received on email.
 
