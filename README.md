@@ -44,7 +44,7 @@ All `i` buttons contain requirment of their attribute to pass this page. When us
 <img src="./example-images/SIGN-UP/i-buttons/username.png" alt="Username i button" height=200/>
 <img src="./example-images/SIGN-UP/i-buttons/name.png" alt="Name i button" height=200/>
 <img src="./example-images/SIGN-UP/i-buttons/email.png" alt="Email i button" height=200/>
-<img src="./example-images/SIGN-UP/i-buttons/Password.png" alt="Password i button" height=200/>
+<img src="./example-images/SIGN-UP/i-buttons/password.png" alt="Password i button" height=200/>
 
 
 **Without Status (before Submit):**
