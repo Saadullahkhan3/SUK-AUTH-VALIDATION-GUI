@@ -27,6 +27,9 @@
 
 
 # Program Flow
+
+*Note: Embedded videos are not working!*
+
 First screen that appear is `Start Page`, that ask for **Sign Up/Sign In** operation:
 
 <img src="./example-images/0-StartPage.png" alt="Start Page" height=300/>
