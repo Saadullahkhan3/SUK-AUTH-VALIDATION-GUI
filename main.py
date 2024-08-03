@@ -747,14 +747,13 @@ if __name__ == "__main__":
 
     SEND_THE_CODE = False
 
-    # SHEETY_END_POINT = r"https://api.sheety.co/df322240a5fdd8f7a95bf23b59768ed6/auth/emails"
-    SHEETY_END_POINT = r"https://api.sheety.co/cf4be50d3acabb51c4e752a06c2501a8/auth2/emails"
+    SHEETY_END_POINT = "<Your-Sheet-endpoint>"   
 
 
-    SMTP_EMAIL = r"Shazadshama3@gmail.com"
-    SMTP_EMAIL_PASSWORD = r"dnnr kbpj yzvo cwzj"
-    SMTP_SERVER = r"Smtp.gmail.com"
-    SMTP_SSL_POST = 465
+    SMTP_EMAIL = r"<Your-Email>"
+    SMTP_EMAIL_PASSWORD = r"<Email-Password>"
+    SMTP_SERVER = "<SMTP-Server>" # This is for gmail: 'Smtp.gmail.com'
+    SMTP_SSL_POST = 465    # This is for gmail SSL port
     app = Application()
     
     app.mainloop()
